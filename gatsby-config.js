@@ -5,8 +5,7 @@ module.exports = {
     subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
-    menu: [
-      {
+    menu: [{
         label: 'Articles',
         path: '/'
       },
@@ -20,17 +19,17 @@ module.exports = {
       }
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
+      name: 'Roby Saavedra',
+      email: 'roby.saavedra@protonmail.com',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'pookiemonday',
+      github: 'yungbeto',
       rss: '#',
-      vk: '#'
+      vk: '#',
+      dribbble: 'betobetobetobeto'
     }
   },
-  plugins: [
-    {
+  plugins: [{
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
@@ -51,19 +50,18 @@ module.exports = {
             }
           }
         `,
-        feeds: [
-          {
-            serialize: ({ query: { site, allMarkdownRemark } }) => (
-              allMarkdownRemark.edges.map(edge =>
-                Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.frontmatter.description,
-                  date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.site_url + edge.node.fields.slug,
-                  guid: site.siteMetadata.site_url + edge.node.fields.slug,
-                  custom_elements: [{ 'content:encoded': edge.node.html }]
-                }))
-            ),
-            query: `
+        feeds: [{
+          serialize: ({ query: { site, allMarkdownRemark } }) => (
+            allMarkdownRemark.edges.map(edge =>
+              Object.assign({}, edge.node.frontmatter, {
+                description: edge.node.frontmatter.description,
+                date: edge.node.frontmatter.date,
+                url: site.siteMetadata.site_url + edge.node.fields.slug,
+                guid: site.siteMetadata.site_url + edge.node.fields.slug,
+                custom_elements: [{ 'content:encoded': edge.node.html }]
+              }))
+          ),
+          query: `
               {
                 allMarkdownRemark(
                   limit: 1000,
@@ -88,16 +86,14 @@ module.exports = {
                 }
               }
             `,
-            output: '/rss.xml'
-          }
-        ]
+          output: '/rss.xml'
+        }]
       }
     },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: [
-          {
+        plugins: [{
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 960
