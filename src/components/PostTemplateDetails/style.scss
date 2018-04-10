@@ -26,6 +26,20 @@
     & h2 {
       @include margin-top(2);
     }
+    //photo caption
+    & h6 {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.2rem;
+      color: lighten($black, 50%);
+      @include margin-top(-.5);
+      @include margin-bottom(1.5);
+    }
+    & h4 {
+      color: $blue;
+    }
     & figure {
       @include margin-bottom(1);
       & blockquote {
@@ -132,12 +146,14 @@
 
 .gatsby-resp {
   &-image-link {
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow .75s ease-in-out;
+    box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.25);
+    transition: box-shadow .2s ease-in-out;
+    @include margin-bottom(.2);
+    @include margin-top(.4);
     &:hover,
     &:active,
     &:focus {
-      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+      box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.25);
     }
   }
 }
@@ -188,7 +204,7 @@
       & p {
         font-size: $typographic-base-font-size * 1.125;
         @include line-height(1.125);
-        @include margin-bottom(1.125);
+        @include margin-bottom(.8);
       }
     }
     &__home-button {
