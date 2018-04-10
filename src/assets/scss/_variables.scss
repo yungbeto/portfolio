@@ -4,13 +4,16 @@
 
 // Colors
 $color-base: #fff;
+$color-base-medium: rgba($color: #fff, $alpha: 0.25);
+$color-base-light: rgba($color: #fff, $alpha: 0.1);
 $color-primary: #FFA3D7;
 $color-secondary: #FFD700;
+$black: #333;
 $bg: linear-gradient(180deg, #00449E 0%, rgba(0, 68, 158, 0.9) 100%);
-$color-white: lighten($color-base, 100%);
-$color-gray: lighten($color-base, 40%);
-$color-gray-border: lighten($color-base, 77%);
-$color-gray-bg: lighten($color-base, 79%);
+$color-white: lighten($black, 100%);
+$color-gray: lighten($black, 40%);
+$color-gray-border: lighten($black, 77%);
+$color-gray-bg: lighten($black, 79%);
 // Typographic
 $typographic-font-family: "Roboto",
 "Helvetica Neue",

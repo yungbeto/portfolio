@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
     url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
-    subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    title: 'Roby Saavedra',
+    subtitle: 'Digital Product Designer • NYC',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [{
-        label: 'Articles',
-        path: '/'
+        label: 'Work',
+        path: '/categories/work/'
       },
       {
         label: 'About me',

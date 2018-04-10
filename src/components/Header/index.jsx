@@ -2,12 +2,13 @@ import React from 'react';
 import get from 'lodash/get';
 import Link from 'gatsby-link';
 import Links from '../Links';
+import Menu from '../Menu';
 import './style.scss';
 
 class Header extends React.Component {
   render() {
     const { location } = this.props;
-    const { author, subtitle } = this.props.data.site.siteMetadata;
+    const { author, subtitle, menu } = this.props.data.site.siteMetadata;
     const isHomePage = get(location, 'pathname', '/') === '/';
 
     /* eslint-disable jsx-a11y/img-redundant-alt */
@@ -34,6 +35,7 @@ class Header extends React.Component {
             {authorBlock}
           </div>
           <div>
+            <Menu data={menu} />
             <Links data={author} />
           </div>
         </div>
