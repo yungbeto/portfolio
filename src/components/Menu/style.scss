@@ -1,7 +1,7 @@
 @import "../../assets/scss/variables";
 @import "../../assets/scss/mixins";
 .menu {
-  border-top: 4px solid $color-base-light;
+  border-top: 1px solid $color-base-light;
   @include margin-top(1);
   @include margin-bottom(.5);
   &__list {
