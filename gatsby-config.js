@@ -21,11 +21,8 @@ module.exports = {
     author: {
       name: 'Roby Saavedra',
       email: 'roby.saavedra@protonmail.com',
-      telegram: '#',
       twitter: 'pookiemonday',
       github: 'yungbeto',
-      rss: '#',
-      vk: '#',
       dribbble: 'betobetobetobeto'
     }
   },
