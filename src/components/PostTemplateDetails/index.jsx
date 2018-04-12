@@ -1,32 +1,19 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import moment from 'moment';
+import Img from 'gatsby-image';
 import Disqus from '../Disqus/Disqus';
+import Links from '../Links';
 import './style.scss';
 
 class PostTemplateDetails extends React.Component {
   render() {
-    const { subtitle, author } = this.props.data.site.siteMetadata;
+    const { author } = this.props.data.site.siteMetadata;
     const post = this.props.data.markdownRemark;
-    const tags = post.fields.tagSlugs;
 
     const homeBlock = (
       <div>
         <Link className="post-single__home-button" to="/">Home</Link>
-      </div>
-    );
-
-    const tagsBlock = (
-      <div className="post-single__tags">
-        <ul className="post-single__tags-list">
-          {tags && tags.map((tag, i) => (
-            <li className="post-single__tags-list-item" key={tag}>
-              <Link to={tag} className="post-single__tags-list-item-link">
-                {post.frontmatter.tags[i]}
-              </Link>
-            </li>
-          ))}
-        </ul>
       </div>
     );
 
@@ -48,14 +35,9 @@ class PostTemplateDetails extends React.Component {
             </div>
           </div>
           <div className="post-single__footer">
-            {tagsBlock}
-            <hr />
-            <p className="post-single__footer-text">
-              {subtitle}
-              <a href={`https://twitter.com/${author.twitter}`} target="_blank" rel="noopener noreferrer">
-                <br /> <strong>{author.name}</strong> on Twitter
-              </a>
-            </p>
+            <div className="post-single__footer-links">
+              <Links data={author} />
+            </div>
             {commentsBlock}
           </div>
         </div>
