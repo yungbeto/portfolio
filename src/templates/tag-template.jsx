@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Sidebar from '../components/Sidebar';
+import Header from '../components/Header';
 import TagTemplateDetails from '../components/TagTemplateDetails';
 
 class TagTemplate extends React.Component {
@@ -11,7 +11,7 @@ class TagTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`All Posts tagged as "${tag}" - ${title}`} />
-        <Sidebar {...this.props} />
+        <Header {...this.props} />
         <TagTemplateDetails {...this.props} />
       </div>
     );

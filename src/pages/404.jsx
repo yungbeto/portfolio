@@ -1,11 +1,11 @@
 import React from 'react';
-import Sidebar from '../components/Sidebar';
+import Header from '../components/Header';
 
 class NotFoundRoute extends React.Component {
   render() {
     return (
       <div>
-        <Sidebar {...this.props} />
+        <Header {...this.props} />
         <div className="content">
           <div className="content__inner">
             <div className="page">

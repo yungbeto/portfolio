@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import kebabCase from 'lodash/kebabCase';
-import Sidebar from '../components/Sidebar';
+import Header from '../components/Header';
 
 class TagsRoute extends React.Component {
   render() {
@@ -12,7 +12,7 @@ class TagsRoute extends React.Component {
     return (
       <div>
         <Helmet title={`All Tags - ${title}`} />
-        <Sidebar {...this.props} />
+        <Header {...this.props} />
         <div className="content">
           <div className="content__inner">
             <div className="page">

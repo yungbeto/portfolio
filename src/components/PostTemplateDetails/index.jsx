@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import moment from 'moment';
-import Img from 'gatsby-image';
 import Disqus from '../Disqus/Disqus';
 import Links from '../Links';
 import './style.scss';
@@ -25,6 +24,10 @@ class PostTemplateDetails extends React.Component {
 
     return (
       <div>
+        <img
+          src="./cover.png"
+          alt="adoifhadoifj"
+        />
         {homeBlock}
         <div className="post-single">
           <div className="post-single__inner">

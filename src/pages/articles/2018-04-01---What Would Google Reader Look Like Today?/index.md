@@ -1,5 +1,4 @@
 ---
-cover: "./reader_hero.png"
 title: What Would Google Reader Look Like Today?
 date: "2018-04-01T23:46:37.121Z"
 layout: post
@@ -11,11 +10,10 @@ tags:
   - "Design"
   - "Speculative"
 description: "An exploration into an alternate reality in which Google Reader was never canned."
+cover: "./cover.png"
 ---
 
 ![Google Reader, artificially aged with science](./reader_hero.png)
-
----
 
 I don’t think I’m alone in still, intermittently, mourning the untimely demise of [Google Reader](https://www.youtube.com/watch?v=VSPZ2Uu_X3Y). 
 Most recently the loss hit me, as random thoughts often do, in the shower -- this time while listening to the news surrounding the #deleteFacebook movement. 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Sidebar from '../components/Sidebar';
+import Header from '../components/Header';
 import CategoryTemplateDetails from '../components/CategoryTemplateDetails';
 
 class CategoryTemplate extends React.Component {
@@ -11,7 +11,7 @@ class CategoryTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${category} - ${title}`} />
-        <Sidebar {...this.props} />
+        <Header {...this.props} />
         <CategoryTemplateDetails {...this.props} />
       </div>
     );
