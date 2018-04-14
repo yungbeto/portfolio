@@ -150,7 +150,7 @@
   }
   &__close {
     padding: 4px;
-    background: $color-base;
+    background: rgba($color: $color-base, $alpha: 0);
     margin-top: auto;
     margin-bottom: auto;
     &:hover,
