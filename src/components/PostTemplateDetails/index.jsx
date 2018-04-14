@@ -25,8 +25,8 @@ class PostTemplateDetails extends React.Component {
     return (
       <div>
         <img
-          src="./cover.png"
-          alt="adoifhadoifj"
+          src={post.frontmatter.cover}
+          alt="Wherethehellismyimage?"
         />
         {homeBlock}
         <div className="post-single">

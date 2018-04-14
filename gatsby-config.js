@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
+    url: 'https://www.beto.haus',
     title: 'Roby Saavedra',
     subtitle: 'Digital Product Designer • NYC',
     copyright: '© All rights reserved.',
