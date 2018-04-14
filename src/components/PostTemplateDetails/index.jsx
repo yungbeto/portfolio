@@ -1,8 +1,10 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import moment from 'moment';
+import { StickyContainer, Sticky } from 'react-sticky';
 import Disqus from '../Disqus/Disqus';
 import Links from '../Links';
+import Close from '../../pages/exButton.svg'
 import './style.scss';
 
 class PostTemplateDetails extends React.Component {
@@ -11,9 +13,13 @@ class PostTemplateDetails extends React.Component {
     const post = this.props.data.markdownRemark;
 
     const homeBlock = (
-      <div>
-        <Link className="post-single__home-button" to="/">Home</Link>
-      </div>
+        <Link className="post-single__home-button" to="/">
+          <img 
+            src={Close}
+            alt="close"
+            className="post-single__close"
+          />
+        </Link>
     );
 
     const commentsBlock = (
@@ -24,15 +30,13 @@ class PostTemplateDetails extends React.Component {
 
     return (
       <div>
-        <img
-          src={post.frontmatter.cover}
-          alt="Wherethehellismyimage?"
-        />
-        {homeBlock}
-        <div className="post-single">
-          <div className="post-single__inner">
-            <h1 className="post-single__title">{post.frontmatter.title}</h1>
-            <div className="post-single__body" dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div className="post-single">
+            <div className="post-single__inner">
+              <header className="post-single__header">
+              <h1 className="post-single__title">{post.frontmatter.title}</h1>
+              {homeBlock}
+              </header>
+              <div className="post-single__body" dangerouslySetInnerHTML={{ __html: post.html }} />
             <div className="post-single__date">
               <em>Published {moment(post.frontmatter.date).format('D MMM YYYY')}</em>
             </div>
@@ -43,7 +47,7 @@ class PostTemplateDetails extends React.Component {
             </div>
             {commentsBlock}
           </div>
-        </div>
+          </div>
       </div>
     );
   }

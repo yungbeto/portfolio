@@ -1,31 +1,38 @@
 @import "../../assets/scss/variables";
 @import "../../assets/scss/mixins";
-.cover {
-  position: sticky;
-  min-height: 60vh;
-  padding-bottom: 40px;
-}
-
 .post-single {
   &__inner {
     max-width: $layout-post-single-max-width;
     padding: 0;
     margin: 0 auto;
   }
-  &__title {
-    font-size: $typographic-base-font-size * 2.5;
-    margin-left: 16px;
-    margin-right: 16px;
-    font-weight: 600;
-    text-align: center;
-    @include line-height(2.4);
-    @include margin-top(3);
-    @include margin-bottom(3);
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin: 0;
+    padding: 8px 24px 8px 12px;
+    background: rgba($color: $color-base, $alpha: 0.98);
+    border-bottom: 1px solid $blue;
   }
+  &__title {
+    font-size: $typographic-base-font-size * 1.1;
+    font-weight: 600;
+    padding: 4px 24px 4px 12px;
+    color: $blue;
+    font-weight: 200;
+    margin: 0;
+    text-align: left;
+    @include line-height(.8);
+    }
   &__body {
     max-width: 1180px;
-    background-color: #fafafa;
-    box-shadow: 2px 2px 6px rgba($color: #000000, $alpha: 0.25);
+    background-color: $color-base;
+    box-shadow: 2px 2px 6px rgba($color: $black, $alpha: 0.25);
     color: $black;
     padding: 32px 20px;
     @include margin-bottom(1);
@@ -36,10 +43,10 @@
     & h6 {
       text-align: center;
       text-transform: uppercase;
-      font-weight: 600;
+      font-weight: 200;
       font-size: 12px;
       letter-spacing: 0.2rem;
-      color: lighten($black, 50%);
+      color: lighten($black, 40%);
       @include margin-top(-.5);
       @include margin-bottom(1.5);
     }
@@ -137,25 +144,19 @@
     }
   }
   &__home-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90px;
-    font-size: $typographic-base-font-size;
-    padding: 0 16px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    color: $color-base;
-    background: $color-base-medium;
-    font-weight: 400;
-    border-radius: 3px;
-    @include margin-top(1);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  &__close {
+    padding: 4px;
+    background: $color-base;
+    margin-top: auto;
+    margin-bottom: auto;
     &:hover,
-    &:focus {
-      color: $color-base;
-      background: $color-base-light;
-      border: 0;
+    &:hover {
+      fill: $color-base;
+      background: $color-primary;
     }
   }
 }
@@ -180,14 +181,16 @@
     &__inner {
       padding: 0 8px;
     }
-    &__title {
-      margin-left: auto;
-      margin-right: auto;
-      @include line-height(2.25);
-      @include margin-top(3);
-      @include margin-bottom(2);
+    &__header {
+      margin: 0;
+      padding: 8px 24px;
     }
-    &__footer {
+    &__title {
+      margin: 0;
+      @include line-height(2.25);        
+      }
+    }
+      &__footer {
       margin-left: auto;
       margin-right: auto;
     }
@@ -198,7 +201,7 @@
       }
     }
   }
-}
+
 
 @include breakpoint-md {
   .post-single {
@@ -206,12 +209,9 @@
       padding: 0 8px;
     }
     &__title {
-      margin-left: auto;
-      margin-right: auto;
-      font-size: $typographic-base-font-size * 3;
+      padding: 2px 14px;
+      font-size: $typographic-base-font-size * 1.25;
       @include line-height(2.25);
-      @include margin-top(4);
-      @include margin-bottom(3);
     }
     &__body {
       max-width: 100%;
@@ -223,13 +223,6 @@
         @include line-height(1.125);
         @include margin-bottom(.8);
       }
-    }
-    &__home-button {
-      position: fixed;
-      max-width: auto;
-      margin: 0;
-      top: 30px;
-      left: 30px;
     }
   }
 }
