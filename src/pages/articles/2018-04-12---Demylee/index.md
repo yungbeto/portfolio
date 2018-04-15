@@ -2,7 +2,7 @@
 title: Demylee
 date: "2018-04-12T23:46:37.121Z"
 layout: post
-draft: false
+draft: true
 path: "/posts/demylee/"
 category: "UI / Branding"
 tags:

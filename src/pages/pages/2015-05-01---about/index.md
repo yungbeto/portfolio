@@ -4,10 +4,20 @@ layout: page
 path: "/about"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+####Get a load of this guy... 
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](./itme.jpg)
+![This effin guy.](./itme.jpg)
+######A selfie from afar
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+Hi, I'm **Roby Saavedra**. I'm a product designer living and working and working and working in NYC. 
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+I have 5 years experience designing for software interfaces, branding, and print though my heart is in digital products. 
+
+####Gallimaufry
+* I enjoy recording mixes and [posting them on Soundcloud](https://soundcloud.com/betobetobetobeto)
+* I've been collecting [soul 45s](https://www.youtube.com/watch?v=33Rg1QSW5Qg) for way too long and have been a podcast guest in that capacity a [couple](https://soundcloud.com/thevinylexam/episode-113-the-beto-review) of [times](https://soundcloud.com/thevinylexam/episode-01). 
+* [Here's a book of mine](https://www.printedmatter.org/catalog/43118/) that's on sale at Printed Matter.
+
+####Want more info?
+My inbox is always open, friend! [robysaavedra@protonmail.com](mailto:robysaavedra@protonmail.com).
+
