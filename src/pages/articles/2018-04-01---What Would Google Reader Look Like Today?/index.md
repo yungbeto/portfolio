@@ -38,23 +38,23 @@ Sadly, I can only guess why GR was sunset to begin with and smarter people than 
 ####However - 
 What I CAN do as a product designer is entertain a thought experiment for how GR could look if it were reborn today and given a [Material Design](https://material.io/) treatment. So I present to you the culmination of a lost weekend -- 
 
-####Google Reader 2018
-#####Home screen 
+###Google Reader 2018
+####Home screen 
 ![Google Reader Home Screen](./gr_home.png)
 ######Google Reader Home
 I looked to Google News, Google Docs, and Feedly for layout inspiration while of course scouring the web for old screen shots of Google Reader. _Side Note_ I was shocked at how dated the interface had already become in the span of 5 years. I guess Gmail still looks the same though, so I shouldn't be that shocked. 
 
-#####Reading an article
+####Reading an article
 ![Reading an article](./gr_article.png)
 ######Reading an article
 I've always loved Inbox's solution to opening an email using a modified [expansion panel](https://material.io/guidelines/components/expansion-panels.html#) with a sticky header and footer for longer messages. I thought a similar approach would work nicey here
 
-#####Blog Home
+####Blog Home
 ![Drilling down into a source](./gr_drill.png)
 ######Drilling down into an article
 For a blog's homepage I drew inspiration from the layout of a [landing page for a Youtube channel](https://www.youtube.com/channel/UCJkMlOu7faDgqh4PfzbpLdg). I think if I were to spend more time iterating on these (I probably won't but I lowkey kind of want to) I'd do a few more examples of these publisher home pages. I think here would be a nice opportunity to pull some unique styling from a site's API: some branded color, a custom header, icon. Perhaps certified publisher's could even take ownership of their feed, it'd be magical.
 
-#####Mobile
+####Mobile
 ![Mobile view](./gr_mobile.png)
 ######Mobile view 
 Of course, its 2018: the mobile experience would have to be killer. I can't remember if a responsive version of reader was ever shipped but I'm 90% there never was one... 
