@@ -9,7 +9,7 @@ tags:
   - "Software"
   - "Design"
   - "Web"
-description: "I'm a regular design contributor to the open source machine learning framework, [PropelML](https://propelml.org/). Designed and implemented the landing page, API reference, and code sandbox UI."
 cover: "./cover.png"
+description: "I'm a regular design contributor to the open source machine learning framework, PropelMl. Designed and implemented the landing page, API reference, and code sandbox UI."
 ---
 blah blah blah
