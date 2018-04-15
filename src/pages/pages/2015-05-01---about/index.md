@@ -3,11 +3,8 @@ title: "About me"
 layout: page
 path: "/about"
 ---
-
-####Get a load of this guy... 
-
 ![This effin guy.](./itme.jpg)
-######A selfie from afar
+######Get a load of this guy
 
 Hi, I'm **Roby Saavedra**. I'm a product designer living and working and working and working in NYC. 
 
