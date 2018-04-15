@@ -9,7 +9,7 @@ tags:
   - "Software"
   - "Design"
   - "Web"
-description: "I'm currently a product designer at Dilignet. I design and sometimes contribute code to software that facilitates board meetings."
+description: "I'm currently a product designer at Diligent. I design and sometimes contribute code to software that facilitates board meetings."
 cover: "./cover.png"
 ---
 ![Diligent](./blocked.gif)
