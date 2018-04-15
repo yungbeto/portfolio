@@ -49,16 +49,6 @@ export const pageQuery = graphql`
         tags
         date
         description
-        cover {
-          childImageSharp {
-            resolutions(width: 400) {
-              width
-              height
-              src
-              srcSet
-            }
-          }
-        }
       }
     }
   }
