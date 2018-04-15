@@ -11,13 +11,13 @@ class PostTemplateDetails extends React.Component {
     const post = this.props.data.markdownRemark;
 
     const homeBlock = (
-        <Link className="post-single__home-button" to="/">
-          <img 
-            src={Close}
-            alt="close"
-            className="post-single__close"
-          />
-        </Link>
+      <Link className="post-single__home-button" to="/">
+        <img
+          src={Close}
+          alt="close"
+          className="post-single__close"
+        />
+      </Link>
     );
 
     const commentsBlock = (

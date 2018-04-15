@@ -28,7 +28,7 @@
     margin: 0;
     text-align: left;
     @include line-height(.8);
-    }
+  }
   &__body {
     max-width: 1180px;
     background-color: $color-base;
@@ -42,11 +42,11 @@
     //photo caption
     & h6 {
       text-align: center;
-      text-transform: uppercase;
-      font-weight: 200;
       font-size: 12px;
-      letter-spacing: 0.2rem;
+      line-height: 20px;
+      letter-spacing: 0.025rem;
       color: lighten($black, 40%);
+      padding: 0 16px;
       @include margin-top(-.5);
       @include margin-bottom(1.5);
     }
@@ -187,21 +187,20 @@
     }
     &__title {
       margin: 0;
-      @include line-height(2.25);        
-      }
+      @include line-height(2.25);
     }
-      &__footer {
+  }
+  &__footer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__body {
+    & .gatsby-highlight {
       margin-left: auto;
       margin-right: auto;
     }
-    &__body {
-      & .gatsby-highlight {
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
   }
-
+}
 
 @include breakpoint-md {
   .post-single {
