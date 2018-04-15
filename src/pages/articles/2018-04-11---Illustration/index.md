@@ -9,7 +9,9 @@ tags:
   - "Drawing"
   - "Illustration"
   - "Digital"
-description: "I like to draw and I draw a lot. Here are some drawings."
+description: "I like to draw and I draw a lot."
 cover: "./cover.png"
 ---
-blah blah blah
+#####Gene Cernan
+![Mobile view](./gene_cernan.png)
+######A portrait of the late astronaut, Gene Cernan
