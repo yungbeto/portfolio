@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://www.beto.haus',
+    url: 'https://prblmslvng.net',
     title: 'Roby Saavedra',
     subtitle: 'Digital Product Designer • NYC',
     copyright: '© All rights reserved.',
