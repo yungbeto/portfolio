@@ -4,7 +4,7 @@ date: "2018-04-13T23:46:37.121Z"
 layout: post
 draft: false
 path: "/posts/diligent/"
-category: "Work"
+category: "UI / UX"
 tags:
   - "Software"
   - "Design"

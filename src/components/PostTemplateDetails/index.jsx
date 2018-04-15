@@ -1,7 +1,5 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import moment from 'moment';
-import { StickyContainer, Sticky } from 'react-sticky';
 import Disqus from '../Disqus/Disqus';
 import Links from '../Links';
 import Close from '../../pages/exButton.svg'
@@ -37,9 +35,6 @@ class PostTemplateDetails extends React.Component {
               {homeBlock}
               </header>
               <div className="post-single__body" dangerouslySetInnerHTML={{ __html: post.html }} />
-            <div className="post-single__date">
-              <em>Published {moment(post.frontmatter.date).format('D MMM YYYY')}</em>
-            </div>
           </div>
           <div className="post-single__footer">
             <div className="post-single__footer-links">

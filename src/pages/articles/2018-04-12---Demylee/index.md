@@ -4,7 +4,7 @@ date: "2018-04-12T23:46:37.121Z"
 layout: post
 draft: false
 path: "/posts/demylee/"
-category: "Work"
+category: "UI / Branding"
 tags:
   - "ecommerce"
   - "Design"

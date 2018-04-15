@@ -4,7 +4,7 @@ date: "2018-04-11T23:46:37.121Z"
 layout: post
 draft: false
 path: "/posts/illustration/"
-category: "Work"
+category: "Illustration"
 tags:
   - "Drawing"
   - "Illustration"
