@@ -43,11 +43,11 @@
     //photo caption
     & h6 {
       text-align: center;
-      text-transform: uppercase;
-      font-weight: 200;
       font-size: 12px;
-      letter-spacing: 0.2rem;
+      line-height: 20px;
+      letter-spacing: 0.025rem;
       color: lighten($black, 40%);
+      padding: 0 16px;
       @include margin-top(-.5);
       @include margin-bottom(1.5);
     }
