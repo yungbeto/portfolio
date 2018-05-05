@@ -8,7 +8,7 @@ path: "/about"
 
 Hi, I'm **Roby Saavedra**. I'm a product designer living and working and working and working in NYC. 
 
-I have 5 years experience designing for software interfaces, branding, and print though my heart is in digital products. 
+I’m a product designer living in NYC with about 5 years design experience. I’ve worked in branding, advertising, illustration, and more, but my heart is in software.  
 
 ####Gallimaufry
 * I enjoy recording mixes and [posting them on Soundcloud](https://soundcloud.com/betobetobetobeto)
