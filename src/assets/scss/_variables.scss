@@ -46,3 +46,14 @@
         color: $blue;
       }
     }
+    
+     ::-moz-selection {
+      /* Code for Firefox */
+      color: $blue;
+      background: $color-primary;
+    }
+    
+     ::selection {
+      color: $blue;
+      background: $color-primary;
+    }
