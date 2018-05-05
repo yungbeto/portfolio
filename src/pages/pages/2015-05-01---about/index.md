@@ -6,7 +6,7 @@ path: "/about"
 ![This effin guy.](./itme.jpg)
 ######Get a load of this guy
 
-Hi, I'm **Roby Saavedra**. I'm a product designer living and working and working and working in NYC. 
+Hi, I'm **Roby Saavedra**. 
 
 I’m a product designer living in NYC with about 5 years design experience. I’ve worked in branding, advertising, illustration, and more, but my heart is in software.  
 
