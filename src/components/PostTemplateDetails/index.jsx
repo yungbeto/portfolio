@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Disqus from '../Disqus/Disqus';
 import Links from '../Links';
-import Close from '../../pages/exButton.svg'
+import Close from '../../pages/exButton.svg';
 import './style.scss';
 
 class PostTemplateDetails extends React.Component {
@@ -28,13 +28,13 @@ class PostTemplateDetails extends React.Component {
 
     return (
       <div>
-          <div className="post-single">
-            <div className="post-single__inner">
-              <header className="post-single__header">
+        <div className="post-single">
+          <div className="post-single__inner">
+            <header className="post-single__header">
               <h1 className="post-single__title">{post.frontmatter.title}</h1>
               {homeBlock}
-              </header>
-              <div className="post-single__body" dangerouslySetInnerHTML={{ __html: post.html }} />
+            </header>
+            <div className="post-single__body" dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
           <div className="post-single__footer">
             <div className="post-single__footer-links">
@@ -42,7 +42,7 @@ class PostTemplateDetails extends React.Component {
             </div>
             {commentsBlock}
           </div>
-          </div>
+        </div>
       </div>
     );
   }
