@@ -24,11 +24,9 @@ I was recently approached by the New York knitwear brand [Demylee](https://www.i
 ![Demylee](./old.png)
 ######The old Demylee site
 
-Demylee makes stylish, unique clothes that attract young, professional women with discerning taste. That demo knows a crappy website when they see it and, moreover, can infer what level of quality a crappy online presence betrays: crap. This was bad.
+Demylee makes stylish, unique clothes that attract young, professional women with discerning taste. It was important that their web presence be every bit as elegant as the clothes the company produces.
 
-On top of that, when I was given access to the WP backend I was aghast - the agency who originally developed the site had really left things in disarray. Many of the plugins hadn’t been updated for years leaving the company vulnerable to hacking attempts, let alone how unorganized everything was.
-
-My first order of business was to convince the team that they should invest in a Shopify account - which they did - and get a good developer to start on the right foot - which they also did. Go me.
+The previous site was running a convoluted amalgamation of WP plugins making it really difficult for anyone to come in and manage. My first order of business was to convince the team that they should invest in a Shopify account - which they did - and get a good developer to start on the right foot - which they also did. Hooray!
 
 
 ##Sew Much Work
@@ -36,7 +34,7 @@ My first order of business was to convince the team that they should invest in a
 ![Demylee](./1.png)
 ######The new landing page
 
-Nights and weekends for the next month were dedicated to this site. I worked closely with a really talented developer to get the site up in time for an upcoming season. 
+Nights and weekends for the next couple of months were dedicated to this site. I worked closely with a really talented developer to get the site up in time for an upcoming season. 
 
 ![Demylee](./2.png)
 ######The mobile experience was improved from it's previous level of 'non-existent'
