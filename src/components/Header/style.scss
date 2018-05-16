@@ -31,7 +31,7 @@
     }
     &-subtitle {
       margin-top: 0px;
-      color: rgba($color: $color-primary, $alpha: 1);
+      color: rgba($color: $color-base, $alpha: 1);
       @include line-height(1);
     }
   }

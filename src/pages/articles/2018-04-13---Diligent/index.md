@@ -13,7 +13,7 @@ description: "I'm currently a product designer at Diligent. I design and sometim
 cover: "./cover.png"
 ---
 ![Diligent](./blocked.gif)
-######I'm sorry. I can't provide much from my time with Diligent in this portfolio. You get it, right? Cool thanks :)
+######I can happily provide work samples upon request :)
 
 ####Diligent
 
