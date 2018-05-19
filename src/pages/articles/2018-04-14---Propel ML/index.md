@@ -1,6 +1,6 @@
 ---
 title: Propel ML
-date: "2018-04-14T23:46:37.121Z"
+date: "2018-05-19T23:46:37.121Z"
 layout: post
 draft: false
 path: "/posts/propel-ml/"
@@ -10,14 +10,14 @@ tags:
   - "Design"
   - "Web"
 cover: "/static/propel_inDevice-5b7d2f7e77b235c87d35623212531ba1-10d8f.png"
-description: "I'm a regular design contributor to the open source machine learning framework, PropelMl. I designed and implemented the landing page, API reference, and code sandbox UI."
+description: "I'm a regular design contributor to the open source machine learning framework, PropelML. I designed and implemented the landing page, API reference, and code sandbox UI."
 ---
 ![PropelML](./propel_inDevice.png)
 ######The PropelML landing page, today.
 
 ####PropelML
 
-Only a few weeks prior to its planned initial rollout, [Propel](http://propelml.org/) had a quickly thrown together landing page and UI. 
+My friend [Ryan](http://tinyclouds.org/) had been working on [a project](http://propelml.org/) for a few months in stealth mode when I asked to see how it was going. He presented his working demo that had little to know design applied: just a couple input fields and a link to a github repo. The math was way over my head but his enthusiasm got me excited too -- I wanted in. 
 
 
 ####Unsolicited Design Proposal
@@ -25,7 +25,7 @@ Only a few weeks prior to its planned initial rollout, [Propel](http://propelml.
 ![My initial redesign](./beta.png)
 ######My initial design proposal for Propel. It's still live [here](http://prop.beto.town).
 
-I took a weekend and whipped together a [surprise unsolicited redesign](http://prop.beto.town) because everybody loves it when you imply that their website sucks. The bait was bitten and since then I’ve been the de facto design lead for the open source project. 
+I took a weekend and whipped together a [surprise unsolicited redesign](http://prop.beto.town) because everyone loves an unsolicited redesign of thier work, what could go wrong? Luckily Ryan was into it and brought me on to be in charge of the front end. 
 
 ![PropelML](./notebookEntry.png)
 ######The Notebook - a code sandbox tool that lets you run machine learning scripts in the browser, something hitherto impossible before Propel. 
@@ -34,3 +34,9 @@ Since there’s no dedicated front-end developer I’m expected to code the desi
 
 ![Code Snippet Collection](./notebookHome.png)
 ######The Notebook Gallery
+
+####Update - 
+
+On April 19th we had to shudder our proverbial doors since Google released what was essentially [a direct competitor](https://medium.com/tensorflow/introducing-tensorflow-js-machine-learning-in-javascript-bf3eab376db). Big bummer but I can personally say I learned A LOT during my time with the project. 
+
+On to the next side project... 

@@ -52,7 +52,7 @@
         &-link {
           display: block;
           font-size: $typographic-small-font-size;
-          color: $color-primary;
+          color: lighten($color: $color-primary, $amount: 5%);
           font-weight: 600;
           text-transform: uppercase;
           letter-spacing: .6pt;
