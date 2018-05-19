@@ -7,10 +7,11 @@
     padding: 8px 16px;
     border: 1px solid $blue;
     box-shadow: 2px 2px 0px $color-primary;
-    transition: box-shadow 0.23s cubic-bezier(.33, .66, .66, 1);
+    transition: all 0.23s cubic-bezier(.33, .66, .66, 1);
     &:hover {
       box-shadow: 4px 4px 0px $color-secondary;
       border: 1px solid $color-secondary;
+      background: $color-base;
     }
     @include margin-bottom(2);
     &:last-child {
@@ -72,15 +73,15 @@
       }
     }
   }
-
+  
   @include breakpoint-sm {
     .post {
       margin-left: 24px;
     }
   }
-    
+  
   @include breakpoint-md {
     .post {
       margin-left: 24px;
     }
-}
+  }
