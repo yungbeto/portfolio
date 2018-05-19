@@ -149,7 +149,7 @@ figcaption {
 
 .content {
   &__inner {
-    padding: 25px 20px;
+    padding: 25px 0px;
   }
 }
 
@@ -166,9 +166,9 @@ figcaption {
     float: left;
   }
   .content {
-    lost-column: 7/12;
+    lost-column: 8/12;
     &__inner {
-      padding: 30px 20px;
+      padding: 30px 0px;
     }
   }
 }
@@ -177,7 +177,7 @@ figcaption {
   .content {
     lost-column: 2/3;
     &__inner {
-      padding: 40px 35px;
+      padding: 40px 0px;
     }
   }
 }

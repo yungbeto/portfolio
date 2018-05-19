@@ -15,7 +15,7 @@
       margin: 8px 8px 0 0;
       &-link {
         font-size: $typographic-base-font-size;
-        color: $typographic-base-font-color;
+        color: $blue;
         font-weight: 400;
         border: 0;
         &:hover,
@@ -24,8 +24,8 @@
           border-bottom: 1px solid $color-primary;
         }
         &--active {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+          color: $color-primary;
+          border-bottom: 1px solid $color-secondary;
         }
       }
     }

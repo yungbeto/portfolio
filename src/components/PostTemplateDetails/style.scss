@@ -150,13 +150,14 @@
   }
   &__close {
     padding: 4px;
+    border-radius: 16px;
     background: rgba($color: $color-base, $alpha: 0);
     margin-top: auto;
     margin-bottom: auto;
     &:hover,
     &:hover {
       fill: $color-base;
-      background: $color-primary;
+      background: $color-secondary;
     }
   }
 }

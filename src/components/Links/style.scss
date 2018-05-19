@@ -19,12 +19,12 @@
         border: 0;
         & i {
           font-size: 20px;
-          color: $color-base;
+          color: $color-primary;
         }
         &:hover,
         &:focus {
           & i {
-            color: rgba($color: $color-primary, $alpha: 1);
+            color: rgba($color: $color-secondary, $alpha: 1);
           }
         }
       }

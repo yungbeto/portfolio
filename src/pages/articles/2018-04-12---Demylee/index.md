@@ -11,7 +11,7 @@ tags:
   - "Web"
   - "Fashion"
 description: "Branding and Web work for the knitwear brand Demylee."
-cover: "./cover.png"
+cover: "/static/cover-1b361f0a5e60fb7029159bfb6aeeecff-8a7b0.png"
 ---
 
 ![Demylee](./cover.png)
@@ -34,7 +34,14 @@ The previous site was running a convoluted amalgamation of WP plugins making it 
 ![Demylee](./1.png)
 ######The new landing page
 
-Nights and weekends for the next couple of months were dedicated to this site. I worked closely with a really talented developer to get the site up in time for an upcoming season. 
+Nights and weekends for the next couple of months were dedicated to this site. I worked closely with a really talented developer and some stakeholders within the company to get the site up in time for an upcoming fashion season. 
+
+Not wanting to go for a drastic rebrand I instead focused on some usibility pain points and SEO opportunities I and the rest of the team identified early on in a collaborative ideation phase:
+
+* Navigation - The navigation needed a bolder, clearer treatment - especially on mobile.
+* Shopping Experience - The shopping + checkout funnel was a bit awkward and benefited from a simpler shopping experience. The move to Shopify really helped in this area. 
+* Social Integration - The company was really investing in it's social platforms but not integrating them into the site. 
+
 
 ![Demylee](./2.png)
 ######The mobile experience was improved from it's previous level of 'non-existent'

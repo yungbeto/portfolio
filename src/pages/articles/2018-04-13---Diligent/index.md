@@ -10,9 +10,9 @@ tags:
   - "Design"
   - "Web"
 description: "I'm currently a product designer at Diligent. I design and sometimes contribute code to software that facilitates board meetings."
-cover: "./cover.png"
+cover: "/static/diligent-3bcc0652143bfbd6346067db00fc9466-aa605.png"
 ---
-![Diligent](./blocked.gif)
+![Diligent](./diligent.png)
 ######I can happily provide work samples upon request :)
 
 ####Diligent

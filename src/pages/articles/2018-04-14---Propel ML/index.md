@@ -9,7 +9,7 @@ tags:
   - "Software"
   - "Design"
   - "Web"
-cover: "./cover.png"
+cover: "/static/propel_inDevice-5b7d2f7e77b235c87d35623212531ba1-10d8f.png"
 description: "I'm a regular design contributor to the open source machine learning framework, PropelMl. I designed and implemented the landing page, API reference, and code sandbox UI."
 ---
 ![PropelML](./propel_inDevice.png)
