@@ -2,7 +2,8 @@
   @import "../../assets/scss/mixins";
   .post {
     background: $bg;
-    margin-left: 24px;
+    margin-left: 8px;
+    margin-right: 16px;
     padding: 8px 16px;
     border: 1px solid $blue;
     box-shadow: 2px 2px 0px $color-primary;
@@ -71,3 +72,15 @@
       }
     }
   }
+
+  @include breakpoint-sm {
+    .post {
+      margin-left: 24px;
+    }
+  }
+    
+  @include breakpoint-md {
+    .post {
+      margin-left: 24px;
+    }
+}
