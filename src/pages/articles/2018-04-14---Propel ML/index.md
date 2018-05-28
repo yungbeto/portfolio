@@ -1,6 +1,6 @@
 ---
 title: Propel ML
-date: "2018-05-19T23:46:37.121Z"
+date: "2018-05-22T23:46:37.121Z"
 layout: post
 draft: false
 path: "/posts/propel-ml/"

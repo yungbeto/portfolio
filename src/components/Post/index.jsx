@@ -11,9 +11,9 @@ class Post extends React.Component {
       <div className="post">
         <div className="post__meta">
           <span className="post__meta-category" key={categorySlug}>
-            <Link to={categorySlug} className="post__meta-category-link">
+            <p className="post__meta-category-link">
               {category}
-            </Link>
+            </p>
           </span>
         </div>
           <Link to={slug}>

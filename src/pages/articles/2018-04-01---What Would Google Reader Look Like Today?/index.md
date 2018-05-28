@@ -1,6 +1,6 @@
 ---
 title: What Would Google Reader Look Like Today?
-date: "2018-04-01T23:46:37.121Z"
+date: "2018-05-16T23:46:37.121Z"
 layout: post
 draft: false
 path: "/posts/google-reader/"

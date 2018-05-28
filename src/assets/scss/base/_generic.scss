@@ -144,12 +144,20 @@ figcaption {
 }
 
 .layout {
-  lost-center: $layout-width;
+  lost-center: $layout-post-single-max-width;
+}
+
+.page_body {
+  lost-center: $layout-post-single-max-width;
 }
 
 .content {
   &__inner {
     padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
 }
 
@@ -166,18 +174,26 @@ figcaption {
     float: left;
   }
   .content {
-    lost-column: 7/12;
+    //lost-column: 10/12;
     &__inner {
       padding: 30px 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center
     }
   }
 }
 
 @include breakpoint-md {
   .content {
-    lost-column: 2/3;
+    //lost-column: 2/3;
     &__inner {
-      padding: 40px 0px;
+      padding: 30px 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
     }
   }
 }

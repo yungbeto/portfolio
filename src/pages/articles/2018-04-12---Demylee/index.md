@@ -1,6 +1,6 @@
 ---
 title: Demylee Website and Rebrand
-date: "2018-05-15T23:46:37.121Z"
+date: "2018-05-21T23:46:37.121Z"
 layout: post
 draft: false
 path: "/posts/demylee/"
