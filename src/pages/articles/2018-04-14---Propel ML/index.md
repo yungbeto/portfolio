@@ -17,7 +17,7 @@ description: "I'm a regular design contributor to the open source machine learni
 
 ####PropelML
 
-My friend [Ryan](http://tinyclouds.org/) had been working on [a project](http://propelml.org/) for a few months in stealth mode when I asked to see how it was going. He presented his working demo that had little to know design applied: just a couple input fields and a link to a github repo. The math was way over my head but his enthusiasm got me excited too -- I wanted in. 
+My friend [Ryan](http://tinyclouds.org/) had been working on [a project](http://propelml.org/) for a few months in stealth mode when I asked to see how it was going. He presented his working demo that had little to no design applied: just a couple input fields and a link to a github repo. The math was way over my head but his enthusiasm got me excited too -- I wanted in. 
 
 
 ####Unsolicited Design Proposal
