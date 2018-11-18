@@ -9,7 +9,6 @@ import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
   render() {
-    if (location.pathname === '/about') {
     return (
       <div
         style={{
@@ -40,39 +39,7 @@ class Bio extends React.Component {
         </p>
       </div>
     )
-  } else {
-    return (
-      <div
-        style={{
-          display: 'flex',
-          marginBottom: rhythm(2.5),
-        }}
-      >
-        <img
-          src={profilePic}
-          alt={`Roby`}
-          style={{
-            marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
-            borderRadius: 100,
-          }}
-        />
-        <p
-          style={{
-            color: "#444",
-          }}
-        >
-          <strong><a href="./about">Roby Saavedra</a></strong> is a product designer who lives in NYC.<br /> He's currently building educational software at <a href="https://www.flocabulary.com" target="_blank">Flocabulary</a><br />{' '}
-          <a href="mailto:roby.saavedra@protonmail.com">
-            Go ahead and email him.
-          </a>
-        </p>
-      </div>
-    )
-    }
-  }
+  } 
 }
 
 export default Bio
