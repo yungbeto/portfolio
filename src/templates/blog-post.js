@@ -6,7 +6,6 @@ import get from 'lodash/get'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import { rhythm, scale } from '../utils/typography'
-import './style.css';
 
 class BlogPostTemplate extends React.Component {
   render() {

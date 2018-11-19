@@ -25,7 +25,7 @@ My friend [Ryan](http://tinyclouds.org/) had been working on [a project](https:/
 ![My initial redesign](./beta.png)
 ######My initial design proposal for Propel. It's still live [here](http://prop.beto.town).
 
-I took a weekend and whipped together a [surprise unsolicited redesign](http://prop.beto.town) because everyone loves an unsolicited redesign of thier work, what could go wrong? Luckily Ryan was into it and brought me on to be in charge of the front end. 
+I took a weekend and whipped together a [surprise unsolicited redesign](http://prop.beto.town). Luckily Ryan was into it and brought me on to be in charge of the front end. 
 
 ![PropelML](./notebookEntry.png)
 ######The Notebook - a code sandbox tool that lets you run machine learning scripts in the browser, something hitherto impossible before Propel. 
