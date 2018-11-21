@@ -8,7 +8,7 @@ path: "/about"
 
 Hi, I'm **Roby Saavedra**. 
 
-I’m a product designer living in NYC with about 5 years design experience. I’ve worked in branding, advertising, illustration, and more, but my heart is in software. I'll spare you a manifesto about my design beliefs except to say that I value <strong>accessibility</strong> in design above most everything else. 
+I’m a product designer living in NYC with about 5 years professional experience. I’ve worked in branding, advertising, illustration, and more, but my heart is in software. I'll spare you a manifesto about my design beliefs except to say that I value <strong>accessibility</strong> in design above most everything else. 
 
 ---
 
