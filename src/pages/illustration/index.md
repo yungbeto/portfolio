@@ -10,7 +10,7 @@ tags:
   - "Illustration"
   - "Digital"
 description: "I like to draw and I draw a lot."
-cover: "/static/spaceman-4a89583938847a7e780f011881da3540-54aa9.png"
+featuredImage: "spaceman.png"
 ---
 ####Gene Cernan
 ![Gene Cernan - Astronaut](./gene_cernan.png)

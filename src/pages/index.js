@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-
+import Img from 'gatsby-image'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import { rhythm } from '../utils/typography'
@@ -47,6 +47,7 @@ class BlogIndex extends React.Component {
                   lineHeight: "auto",
                 }}
               >{node.frontmatter.category}</small>
+              <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} />
               <p 
                 style={{
                   color: "#444",
@@ -81,6 +82,13 @@ export const pageQuery = graphql`
             category
             title
             description
+            featuredImage {
+              childImageSharp{
+                  sizes(maxWidth: 420) {
+                      ...GatsbyImageSharpSizes
+                  }
+              }
+          }
           }
         }
       }

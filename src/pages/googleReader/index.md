@@ -10,7 +10,7 @@ tags:
   - "Design"
   - "Speculative"
 description: "An exploration into an alternate reality in which Google Reader was never canned."
-cover: "/static/reader_hero-c1ea39c010f4e91ff22f8a54ce9efc9b-10d8f.png"
+featuredImage: "cover.png"
 ---
 
 ![Google Reader, artificially aged with science](./reader_hero.png)

@@ -61,7 +61,9 @@ h6 {
     background: #fff;
     transition-property: all;
     transition-duration: 0.3s;
-    
+}
+.post-card:last-child .gatsby-image-wrapper {
+    display: none;
 }
 
 .post-card:last-child:hover, .post-card:last-child:active, .post-card:last-child:focus {

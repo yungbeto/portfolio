@@ -10,7 +10,7 @@ tags:
   - "Design"
   - "Web"
 description: "I was a product designer at Diligent from 2016 to 2018. I designed and sometimes contributed code to software that facilitates board meetings."
-cover: "/static/diligent-3bcc0652143bfbd6346067db00fc9466-aa605.png"
+featuredImage: "diligent.png"
 ---
 ![Diligent](./diligent.png)
 

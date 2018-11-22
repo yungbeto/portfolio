@@ -10,7 +10,7 @@ tags:
   - "Design"
   - "Web"
 description: "I'm currently a product designer at Flocabulary - an ed tech company that uses hip hop to engage k-12 students."
-cover: "/static/diligent-3bcc0652143bfbd6346067db00fc9466-aa605.png"
+featuredImage: "flocab_01.png"
 ---
 ![Flocab](./flocab_01.png)
 

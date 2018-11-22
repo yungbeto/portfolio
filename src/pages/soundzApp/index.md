@@ -12,7 +12,7 @@ tags:
   - "Concentration"
   - "Development"
 description: "Design and development of a mobile app for study / concentration / relaxation / etc."
-cover: "/static/hand-a31a7182c8fd7c0b36995346891afa44-d564d.jpg"
+featuredImage: "hand.jpg"
 ---
 ![The Soundz App](./hand.jpg)
 ######The Soundz App

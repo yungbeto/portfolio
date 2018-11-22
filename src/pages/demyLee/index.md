@@ -11,7 +11,7 @@ tags:
   - "Web"
   - "Fashion"
 description: "Branding and Web work for the knitwear brand Demylee."
-cover: "/static/cover-17d56887830edd84ab5330abda059208-c83f1.png"
+featuredImage: "cover.png"
 ---
 
 ![Demylee](./cover.png)

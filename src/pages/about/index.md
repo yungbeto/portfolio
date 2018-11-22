@@ -3,8 +3,9 @@ title: "About me"
 layout: page
 date: "2015"
 path: "/about"
+featuredImage: "cover.png"
 ---
-![Get a load of this guy.](./itme.jpg)
+![Get a load of this guy.](/itme.jpg)
 
 Hi, I'm **Roby Saavedra**. 
 
